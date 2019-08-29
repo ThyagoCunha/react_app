@@ -1,5 +1,7 @@
-import React from 'react';
-import SqueareCool from './components/SquareCool/index.js'
+import React, { Fragment } from 'react';
+import BoardCool from './components/BoardCool/index.js';
+import SqueareCool from './components/SquareCool/index.js';
+
 
 // function App() {
 //   return (
@@ -7,6 +9,13 @@ import SqueareCool from './components/SquareCool/index.js'
 //   );
 // }
 
-const App = ()=> <SqueareCool />
+const App = ()=> (
+  <Fragment>
+    <BoardCool>
+      <SqueareCool />
+    </BoardCool>
+    
+  </Fragment>
+);
 
 export default App;

@@ -1,4 +1,7 @@
 import React from "react";
+
+
+
   const BoardCool = ({children}) =>(
      <article>{children}</article>
   );

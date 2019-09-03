@@ -3,6 +3,7 @@ import BoardCool from './components/BoardCool/index.js';
 import SqueareCool from './components/SquareCool/index.js';
 
 
+
 // function App() {
 //   return (
 //     <h1>Hello World</h1>
@@ -12,9 +13,9 @@ import SqueareCool from './components/SquareCool/index.js';
 const App = ()=> (
   <Fragment>
     <BoardCool>
-      <SqueareCool />
+      <SqueareCool/>
     </BoardCool>
-    
+      
   </Fragment>
 );
 

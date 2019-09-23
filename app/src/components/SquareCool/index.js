@@ -1,7 +1,17 @@
 import React from "react";
 import "./styles.css";
 
-const SquareCool = () => <button className="square-cool">X</button>;
+const userClick = texto => {
+  return function() {
+    console.log(texto);
+  };
+};
+
+const SquareCool = () => (
+  <button onClick={userClick("clicando")} className="square-cool">
+    X
+  </button>
+);
 
 export default SquareCool;
 

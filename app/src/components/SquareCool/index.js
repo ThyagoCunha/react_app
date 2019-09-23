@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 import "./styles.css";
 
-const SquareCool = () => (
-  <button className ="square-cool">X</button>
-);
+const SquareCool = () => <button className="square-cool">X</button>;
 
 export default SquareCool;
 

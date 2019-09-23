@@ -6,7 +6,7 @@ const repeticao = qtd => {
   const caixa = [];
 
   while (max--) {
-    caixa.push(<SqueareCool />);
+    caixa.push(<SqueareCool key={max} />);
   }
 
   return caixa;

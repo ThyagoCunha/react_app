@@ -1,11 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-const userClick = texto => {
-  return function() {
-    console.log(texto);
-  };
-};
+const userClick = texto => () => console.log(texto);
 
 const SquareCool = () => (
   <button onClick={userClick("clicando")} className="square-cool">
